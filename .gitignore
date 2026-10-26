@@ -1,0 +1,24 @@
+# 真实配置（含密钥）
+digest/llm.json
+digest/llm2.json
+machine.env
+*.key
+*.pem
+
+# 运行时凭据（B站 Cookie / SMTP 授权码）
+bili_cookie.txt
+mail_config.txt
+*_cookie*.txt
+*.cookie
+*.session
+
+# 运行时
+__pycache__/
+*.pyc
+state/
+backups/
+logs/
+*.log
+*.db
+*.sqlite
+.DS_Store

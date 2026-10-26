@@ -1,0 +1,63 @@
+{
+  "enabled": true,
+  "base_url": "https://api.deepseek.com/v1",
+  "model": "deepseek-chat",
+  "api_key": "YOUR_DEEPSEEK_API_KEY",
+  "max_tokens": 600,
+  "timeout": 40,
+  "qzone_watch": [],
+  "qzone_watch_interval_min": 3,
+  "qzone_notify_uin": 0,
+  "qzone_auto_like": false,
+  "qzone_auto_comment": false,
+  "qzone_comment_daily_cap": 12,
+  "qzone_post_daily_cap": 3,
+  "digest_recipients": [],
+  "news_recipients": [],
+  "care_targets": [],
+  "qzone_like_daily_cap": 30,
+  "features": {
+    "care": false,
+    "file_send": false,
+    "sticker": false,
+    "news": false,
+    "qzone_social": false,
+    "qzone_post": false,
+    "web_search": false,
+    "digest": false,
+    "auto_profile": false,
+    "zodiac": false,
+    "tarot": false,
+    "iching": false,
+    "like_card": false,
+    "divination": false
+  },
+  "search_engine": "bing",
+  "vision": {
+    "base_url": "https://open.bigmodel.cn/api/paas/v4",
+    "model": "glm-4v-flash",
+    "api_key": "YOUR_ZHIPU_API_KEY"
+  },
+  "news_time": "06:00",
+  "digest_time": "21:00",
+  "digest_platforms": [
+    "douyin",
+    "bili"
+  ],
+  "zodiac": [],
+  "persona": {
+    "nicknames": "助手、AI",
+    "style": "直接、简短、平等。对方说多长你回多长，话说完了就停，不端架子、不说教。",
+    "abilities": ""
+  },
+  "people_order": [],
+  "like_card": {
+    "targets": [],
+    "times": 10,
+    "per_target": {}
+  },
+  "call_base": "",
+  "like_card_accounts": [],
+  "group_free": [],
+  "banter_quiet_min": 40
+}

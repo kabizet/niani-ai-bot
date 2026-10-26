@@ -1,0 +1,14 @@
+[Unit]
+Description=QQ AI Chat Bot (digest)
+After=network.target docker.service
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/youruser/digest
+ExecStart=/usr/bin/python3 /home/youruser/digest/bot_server.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
